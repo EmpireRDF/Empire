@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>Empire-parent</artifactId>
 	<groupId>com.clarkparsia</groupId>
-	<version>0.7.2</version>
+	<version>0.7.3</version>
 	<name>Parent pom for Empire</name>
 	<description>Groups common configuration and dependencies for all the empire artifacts</description>
 	<packaging>pom</packaging>
@@ -13,6 +13,7 @@
 		<module>reflections</module>
 		<module>sesame2</module>
 		<module>sql</module>
+    <module>examples</module>
 		<module>test</module>
 	</modules>
 	<properties>
@@ -125,12 +126,12 @@
 		</dependencies>
 	</dependencyManagement>
 	<build>
-		<resources>
+		<!--resources>
 			<resource>
 				<directory>resources</directory>
 			</resource>
 		</resources>
-		<sourceDirectory>src</sourceDirectory>
+		<sourceDirectory>src</sourceDirectory-->
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
