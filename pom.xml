@@ -185,5 +185,13 @@
 				<enabled>true</enabled>
 			</releases>
 		</repository>
+    		<repository>
+        		<id>EmpireRDF</id>
+        		<url>https://github.com/EmpireRDF/mavenRepo/raw/master/releases</url>
+    		</repository>
+    		<repository>
+        		<id>EmpireRDF-snapshot</id>
+        		<url>https://github.com/EmpireRDF/mavenRepo/raw/master/snapshots</url>
+    		</repository>
 	</repositories>
 </project>
